@@ -73,7 +73,7 @@ RECORD = {
     'Pattern Length': None,
     'Alphabet Size': None,
     'Time [ms]': None,
-    'Speed [GB/s]': None,
+    # 'Speed [GB/s]': None,
     'Algorithm': None,
 }
 BEST = {'Best Algo': None}
@@ -106,7 +106,7 @@ def dataset_from_xml(path):
                 RECORD['Time [ms]'] = float(kids_root_data.find('SEARCH').text)
                 RECORD['Pattern Length'] = int(PATTERN_LENGTH[i])
 
-                RECORD['Speed [GB/s]'] = (float(RECORD['Text Size [MB]']) / RECORD['Time [ms]']) * 1000 / 1024
+                # RECORD['Speed [GB/s]'] = (float(RECORD['Text Size [MB]']) / RECORD['Time [ms]']) * 1000 / 1024
 
                 if kids_root_data.find('SEARCH').text == best_times[i]:
                     BEST['Best Algo'] = kids_root.find('NAME').text
@@ -125,5 +125,5 @@ rows, best = dataset_from_xml('./results/*/*.xml')
 df1 = pd.DataFrame(data=rows)
 df2 = pd.DataFrame(data=best)
 df = df1.join(df2)
-df.to_csv('string_pattern_matching.csv', index=False)
+df.to_csv('dataset/string_pattern_matching.csv', index=False)
 print(len(rows), len(best))
