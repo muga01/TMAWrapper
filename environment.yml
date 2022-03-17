@@ -11,10 +11,11 @@ dependencies:
   - urllib3==1.24.3
   - seaborn==0.11.2
   - numpy==1.21.5
+  - conda-forge::jupyter-panel-proxy
 
 
 channels:
 - pyviz
 
-packages:
-- jupyter-panel-proxy
+#packages:
+#- jupyter-panel-proxy
