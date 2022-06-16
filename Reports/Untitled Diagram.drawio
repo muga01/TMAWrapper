@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T12:30:25.535Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="P8nDvc-I5WkdAyHzUk41" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T12:43:53.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="nCutvwJorWbexNiVsjxg" version="20.0.1" type="github">
   <diagram id="aF7s2sprtSHc23R29G0n" name="Page-1">
     <mxGraphModel dx="2059" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -240,6 +240,9 @@
         </mxCell>
         <mxCell id="FdqzSN1PzzM8iArC-SXY-132" value="New data point" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="650" y="449.59" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FdqzSN1PzzM8iArC-SXY-133" value="&lt;b&gt;Training samples&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="510" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
